@@ -1,0 +1,15 @@
+JWT_SECRET="PASSWORD"
+PORT=8000
+SALT_ROUND=10
+BASE_URL="http://localhost:8000"
+
+# DB INFO
+DB_USER_NAME="your pc/laptop user name"
+DB_PASSWORD=""
+DB_HOST="localhost"
+DB_PORT=5432
+DB_NAME="postgres"
+
+# Email
+
+
