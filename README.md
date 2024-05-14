@@ -193,11 +193,11 @@ npm run test
 
 # Database Diagram
 
-![DB Diagram](https://drive.google.com/file/d/1CDvK2qzAsugZPBmazVz1_PGBfKBwJe31/view?usp=sharing)
+https://drive.google.com/file/d/1CDvK2qzAsugZPBmazVz1_PGBfKBwJe31/view?usp=sharing
 
 # AWS Architecture Diagram
 
-![AWS Architecture](https://drive.google.com/file/d/15J16py576iUf7js0E8HgKU3mBYq0dx2g/view?usp=sharing)
+https://drive.google.com/file/d/15J16py576iUf7js0E8HgKU3mBYq0dx2g/view?usp=sharing
 
 We have to create different IAM roles to allow access to RDS and also to support code pipeline for CICD.
 
