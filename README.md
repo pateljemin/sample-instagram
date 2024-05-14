@@ -44,7 +44,7 @@ POST /signup
 {
     "email":"jemin456789@gmail.com",
     "password":"Test@123",
-    "firstName": "Jemin Cool",
+    "firstName": "Jemin",
     "lastName" :"Patel",
     "mobile":"+91123456789",
     "birthDate":"1992-05-21",
@@ -198,6 +198,12 @@ npm run test
 # AWS Architecture Diagram
 
 ![AWS Architecture](images/AWSArchitecture.png)
+
+Request will go to Route53 first to get IP address of load balancer and from load balancer request will be redirected to EC2 instance where service is running and EC2 intance will inetrect with RDS to get or update the data in the database.
+
+We can also support Cache layer in this architecture to improve the performance of feed API.
+
+Here we have made an assumption that media (image/video) are uploaded directly to cloud storage and we are getting URLs of those media in the Post creation request.
 
 We have to create different IAM roles to allow access to RDS and also to support code pipeline for CICD.
 

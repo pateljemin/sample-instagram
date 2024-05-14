@@ -4,7 +4,7 @@ SALT_ROUND=10
 BASE_URL="http://localhost:8000"
 
 # DB INFO
-DB_USER_NAME="your pc/laptop user name"
+DB_USER_NAME=""
 DB_PASSWORD=""
 DB_HOST="localhost"
 DB_PORT=5432
@@ -12,4 +12,7 @@ DB_NAME="postgres"
 
 # Email
 
-
+EMAIL_SERVICE_PROVIDER= ""
+EMAIL_ADDRESS=""
+EMAIL_ACCOUNT_PASSWORD=""
+EMAIL_FROM_ADDRESS=""
